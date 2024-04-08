@@ -1,6 +1,6 @@
 const express = require('express');
 const Person = require('../models/personscema');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const router = express.Router();
 var authenticateToken=require('../middleware/fetchuser');
